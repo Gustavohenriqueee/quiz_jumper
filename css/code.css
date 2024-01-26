@@ -32,3 +32,69 @@ main div input{
     border-radius: 50px;
     text-align: center;
 }
+
+
+/* RESPONSIVIDADE */
+
+
+ @media screen and (max-width: 380px) {
+    main{
+        margin-top: 50%;
+    }
+ }
+
+ @media screen and (max-width: 420px) {
+    main{
+        margin-top: 75%;
+    }
+ }
+
+
+ @media screen and (max-width: 435px) {
+    main{
+        margin-top: 70%;
+    }
+ }
+
+
+ @media screen and (max-width: 580px) {
+    main{
+        margin-top: 78%;
+    }
+
+ }
+
+ @media screen and (max-width: 650px) {
+    main{
+        margin-top: 60%;
+    }
+ }
+
+
+ @media screen and (min-width: 750px) {
+    main{
+        margin-top: 40%;
+    }
+ }
+
+ @media screen and (min-width: 530px) {
+    main{
+        margin-top: 40%;
+    }
+ }
+
+ /* RESPONSIVIDADE land scape */
+
+ @media only screen and (min-device-width:481px) and (max-device-width: 1200px) and (orientation: landscape){
+    main{
+        margin-top: 15%;
+    }
+
+   main div{
+    width: 65%;
+    }
+
+    main div h2{
+        font-size: 35px;
+    }
+ }
